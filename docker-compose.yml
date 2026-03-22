@@ -3,8 +3,8 @@ services:
     image: trueosiris/vrising
     entrypoint: ["/bin/bash", "-c", "sed -i 's/\\r//g' /start.sh && exec /bin/bash /start.sh"]
     environment:
-      - TZ=Europe/Paris
-      - SERVERNAME=vrising-TrueOsiris2026
+      - TZ=	America/New_York
+      - SERVERNAME=vrising-iwakura
       - WINEDEBUG=fixme-all
     volumes:
       - type: bind
